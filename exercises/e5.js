@@ -13,6 +13,18 @@
 
 // Your code goes here...
 
+function getDiffTwentySeven(num) {
+  const diff = Math.abs(num - 27);
+  if (num > 27) {
+    return diff * 2;
+  } else {
+    return diff;
+  }
+}
+// EXAMPLES: 
+console.log(getDiffTwentySeven(13)); 
+console.log(getDiffTwentySeven(37)); 
+
 
 
 
@@ -38,6 +50,18 @@
  */
 
 // Your code goes here...
+function sumOfTwoIntegers(num1, num2) {
+  const sum = num1 + num2;
+  if (num1 === num2) {
+    return sum * 3;
+  } else {
+    return sum;
+  }
+}
+
+// TEST EXAMPLES:
+console.log(sumOfTwoIntegers(13, 14)); // 27
+console.log(sumOfTwoIntegers(12, 12)); // 72
 
 
 

@@ -33,6 +33,7 @@ function logMessage(){
 
 // Your code goes here...
 
+
 function logMyMessage(message){
   console.log(message);
 }
@@ -54,7 +55,6 @@ function logMyMessageWithMyName(name){
   console.log('My name is ' + name + '!');
 }
 
-
 /**
  * ==============================================================
  * Create a function that works as follows:
@@ -67,6 +67,7 @@ function logMyMessageWithMyName(name){
 */
 
 // Your code goes here...
+
 function logMyInfo(name, age){
   console.log('My name is ' + name + '. I am ' + age + ' years old!')
 }
