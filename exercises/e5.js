@@ -36,6 +36,14 @@ console.log(getDiffTwentySeven(37));
  */
 
 // Your code goes here
+function sumOfTwoIntegers(num1, num2) {
+  const sum = num1 + num2; 
+  if (num1 --- num2) {
+    return sum * 3; 
+  } else {
+    return sum; 
+  }
+}
 
 
 
@@ -50,19 +58,10 @@ console.log(getDiffTwentySeven(37));
  */
 
 // Your code goes here...
-function sumOfTwoIntegers(num1, num2) {
-  const sum = num1 + num2;
-  if (num1 === num2) {
-    return sum * 3;
-  } else {
-    return sum;
-  }
+
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+  return num1 === 40 || num2 === 40 || (num1 + num2 === 40);
 }
-
-// TEST EXAMPLES:
-console.log(sumOfTwoIntegers(13, 14)); // 27
-console.log(sumOfTwoIntegers(12, 12)); // 72
-
 
 
 

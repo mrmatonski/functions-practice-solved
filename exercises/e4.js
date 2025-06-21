@@ -11,6 +11,7 @@
 
 
 const splitFirstAndLastNames = = (fullName) => fullName.split(" ");
+
    fullName.split(' ');
 
 
