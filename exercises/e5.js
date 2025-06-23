@@ -21,9 +21,6 @@ function getDiffTwentySeven(num) {
     return diff;
   }
 }
-// EXAMPLES: 
-console.log(getDiffTwentySeven(13)); 
-console.log(getDiffTwentySeven(37)); 
 
 
 
@@ -38,7 +35,7 @@ console.log(getDiffTwentySeven(37));
 // Your code goes here
 function sumOfTwoIntegers(num1, num2) {
   const sum = num1 + num2; 
-  if (num1 --- num2) {
+  if (num1 === num2) {
     return sum * 3; 
   } else {
     return sum; 
