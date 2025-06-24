@@ -9,10 +9,9 @@
  * splitFirstAndLastNames('John Smith') => ['John', 'Smith']
  */
 
+  const splitFirstAndLastNames = (fullName) => fullName.split(' ');
 
-const splitFirstAndLastNames = (fullName) => fullName.split(" ");
 
-   fullName.split(' ');
 
 
 
@@ -23,6 +22,7 @@ const splitFirstAndLastNames = (fullName) => fullName.split(" ");
  */
 
 const personAge = (personObject) => personObject.age; 
+
 
 
 
@@ -49,7 +49,7 @@ const logSecondsUpToMax = (max) => {
   let i = 0; 
   const timer = setInterval(() => {
     if (i < max) {
-      console.log(i++);
+      console.log(++i);
     } else {
       clearInterval(timer);
     }

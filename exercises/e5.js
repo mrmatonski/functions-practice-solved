@@ -56,9 +56,10 @@ function sumOfTwoIntegers(num1, num2) {
 
 // Your code goes here...
 
-function isOneOfThemOrTheirSumIsFourty(num1, num2) {
-  return num1 === 40 || num2 === 40 || (num1 + num2 === 40);
-}
+
+
+const isOneOfThemOrTheirSumIsFourty = (num1, num2)=> num1 === 40 || num2 ===40 || (num1 + num2 === 40);
+
 
 
 

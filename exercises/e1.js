@@ -51,16 +51,17 @@ function logMyMessage(message){
 
 // Your code goes here...
 
-function logMessageWithMyName(name, age){
-  console.log(`my name is ${name} and I am ${age} years old!`);
+function logMessageWithMyName(name){
+  console.log(`My name is ${name}!`);
 }
+
 
 
 
 /**
  * ==============================================================
  * Create a function that works as follows:
-  * the function name is 'logMyInfo' strictly.
+  * the function name is 'logMyInfo' strictly.np
   * The function MUST use NAMED function syntax.
   * The function of logs a message of 'My name is <name>. I am <age> years old!'.
   * The name is a string value passed as an argument.
@@ -71,10 +72,10 @@ function logMessageWithMyName(name, age){
 // Your code goes here...
 
 function logMyInfo(name, age){
-  console.log('My name is ' + name + '. I am ' + age + ' years old!')
+  console.log(`My name is ${name}. I am ${age} years old!`);
 }
 
-var name = logMyInfo('Andrey', 18);
+
 
 
 
