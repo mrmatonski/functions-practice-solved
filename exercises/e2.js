@@ -24,9 +24,9 @@
 
 // Your code goes here:
 
-console.log(rectArea(4, 6));
-console.log(rectArea(13, 3));
-console.log(rectArea(4, 8));
+const room1 = rectArea(4, 6);
+const room2 = rectArea(13, 3);
+const room3 = rectArea(4, 8);
 
 
 
@@ -45,8 +45,8 @@ console.log(rectArea(4, 8));
 let area1 = 24; 
 let area2 = 35; 
 let area3 = 24;
-function totalRoomsArea(area1, area2, area3){
-  return area1 + area2 + area3; 
+function totalRoomsArea(room1, room2, room3){
+  return room1 + room2 + room3;  
 }
 
 
@@ -55,7 +55,10 @@ function totalRoomsArea(area1, area2, area3){
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 variables as arguments for the function call
 
-console.log(totalRoomsArea(area1, area2, area3));
+const result = function() {
+  console.log(totalRoomsArea(room1, room2, room3));
+}
+
 
 
 
